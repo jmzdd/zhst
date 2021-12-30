@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/profile/profile",
+        "pages/login/login",
+        "pages/read/read",
+        "pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "众护生态-beta",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

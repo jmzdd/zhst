@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+    <image class="logo" src="https://636c-cloud1-9gfcxyb906c553b1-1308994355.tcb.qcloud.la/assets/imgs/logo.png?sign=6035d6a636302a5f42294c8991cae800&t=1640763570"/>
+    <view class="wechat btn-login" bind:tap="wechatlogin">微信登录</view>
+
+    <view class="agreemeet">
+        登录即表示同意众护生态
+        <view class="read" bind:tap="openread">使用协议/隐私协议
+    </view>
+      </view>
+</view>

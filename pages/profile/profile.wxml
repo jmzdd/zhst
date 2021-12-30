@@ -1,0 +1,61 @@
+<!--pages/profile/profile.wxml-->
+<view>
+    <view class="loginapp">
+        <view class="tologin" bind:tap="openlogin">登 录</view>
+        <image class="loginapp" src="https://636c-cloud1-9gfcxyb906c553b1-1308994355.tcb.qcloud.la/assets/imgs/banner.png?sign=88a1fa59b3689579e2582e16e297c3cc&t=1640772580" mode="aspectFill"/>
+    </view>
+
+    <view class="items-list">
+        <view class="myself">
+            <view class="title">我的资料</view>
+            <view class="text">
+                登录后查看
+                <view class="arrow"></view>
+            </view>
+        </view>
+
+        <view class="bank">
+            <image class="bank-icon" src="https://636c-cloud1-9gfcxyb906c553b1-1308994355.tcb.qcloud.la/assets/imgs/bank.png?sign=e5caa3b4d0bc19b4b0bf7854048149cd&t=1640830914"/>
+            <view class="info">
+                <view class="word">
+                    <view class="word-bank">积分银行</view>
+                    <view class="text">
+                        点击查看
+                        <view class="arrow"></view>
+                    </view>
+                </view>
+                <view class="line"></view>    
+            </view>
+        </view>
+
+        <view class="history">
+            <image class="history-icon" src="https://636c-cloud1-9gfcxyb906c553b1-1308994355.tcb.qcloud.la/assets/imgs/history.png?sign=2a8d8c0b1a24ed7ffb6aaaba0feff1c2&t=1640848263"/>
+            <view class="info">
+                <view class="word">
+                    <view class="word-history">历史记录</view>
+                    <view class="text">
+                        点击查看
+                        <view class="arrow"></view>
+                    </view>
+                </view>
+                <view class="line"></view>    
+            </view>
+        </view>
+
+        <view class="about">
+            <image class="about-icon" src="https://636c-cloud1-9gfcxyb906c553b1-1308994355.tcb.qcloud.la/assets/imgs/about.png?sign=d7570c72dc16ad86b57257c6049cb2a5&t=1640848943"/>
+            <view class="info">
+                <view class="word">
+                    <view class="word-about">关于</view>
+                    <view class="text">
+                        点击查看
+                        <view class="arrow"></view>
+                    </view>
+                </view>
+                <view class="line"></view>    
+            </view>
+        </view>
+        
+    </view>
+    <view class="version">程序版本1.0.0-beta</view>
+</view>
